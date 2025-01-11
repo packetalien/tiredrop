@@ -1,8 +1,46 @@
 <config>
   <append xpath="/blocks">
+    <!-- For tireStack -->
     <block name="tireStack">
       <property name="DropOnBreak" value="vehicleTire,1"/>
       <property name="DropOnBreakCount" value="1"/>
+      <property name="DropOnBreakChance" value="1"/>
+    </block>
+    <!-- For individual tire, if it exists -->
+    <block name="tire">
+      <property name="DropOnBreak" value="vehicleTire,1"/>
+      <property name="DropOnBreakCount" value="1"/>
+      <property name="DropOnBreakChance" value="1"/>
+    </block>
+    <!-- For non-drivable cars -->
+    <block name="vehicleSedan">
+      <property name="DropOnBreak" value="vehicleTire,4"/>  
+      <property name="DropOnBreakCount" value="4"/>
+      <property name="DropOnBreakChance" value="1"/>
+    </block>
+    <block name="vehicleAmbulance">
+      <property name="DropOnBreak" value="vehicleTire,4"/>  
+      <property name="DropOnBreakCount" value="4"/>
+      <property name="DropOnBreakChance" value="1"/>
+    </block>
+    <block name="vehicleArmyTruck">
+      <property name="DropOnBreak" value="vehicleTire,4"/>  
+      <property name="DropOnBreakCount" value="4"/>
+      <property name="DropOnBreakChance" value="1"/>
+    </block>
+    <block name="vehicleMoPowerServiceTruck">
+      <property name="DropOnBreak" value="vehicleTire,4"/>  
+      <property name="DropOnBreakCount" value="4"/>
+      <property name="DropOnBreakChance" value="1"/>
+    </block>
+    <block name="vehicleSchoolBus">
+      <property name="DropOnBreak" value="vehicleTire,6"/>  <!-- School buses typically have 6 tires -->
+      <property name="DropOnBreakCount" value="6"/>
+      <property name="DropOnBreakChance" value="1"/>
+    </block>
+    <block name="vehicleWorkTruck">
+      <property name="DropOnBreak" value="vehicleTire,4"/>  
+      <property name="DropOnBreakCount" value="4"/>
       <property name="DropOnBreakChance" value="1"/>
     </block>
   </append>
