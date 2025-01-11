@@ -1,6 +1,9 @@
-<modInfo>
-  <name>TireHarvester</name>
-  <description>This mod ensures that breaking any tire in the game world gives you a tire.</description>
-  <version>1.0</version>
-  <author>@packetmonk</author>
-</modinfo>
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="TireHarvester" />
+	<DisplayName value="Tire Harvester" />
+	<Description value="Allows for a tire to drop on harvest" />
+	<Author value="@packetmonk" />
+	<Version value="0.5.0.0" />
+	<Website value="www.badguygas.com" />
+</xml>
