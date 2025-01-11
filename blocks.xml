@@ -1,0 +1,9 @@
+<config>
+  <append xpath="/blocks">
+    <block name="tireStack">
+      <property name="DropOnBreak" value="vehicleTire,1"/>
+      <property name="DropOnBreakCount" value="1"/>
+      <property name="DropOnBreakChance" value="1"/>
+    </block>
+  </append>
+</config>

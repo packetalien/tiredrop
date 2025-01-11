@@ -1,0 +1,7 @@
+<config>
+  <append xpath="/blocks">
+    <block name="tire">
+      <property name="DropOnBreak" value="vehicleTire" />
+    </block>
+  </append>
+</config>
