@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+  <!-- Append tire drops to all vehicle blocks -->
+  <append xpath="/blocks/block[starts-with(@name, 'vehicle')]">
+    <drop event="Destroy" name="vehicleTire" count="4" prob="1"/>
+  </append>
+  
+  <!-- Append tire drops to all tire decorations -->
+  <append xpath="/blocks/block[starts-with(@name, 'decoCarTire')]">
+    <drop event="Destroy" name="vehicleTire" count="1" prob="1"/>
+  </append>
+  
+  <!-- Specific case for school bus due to extra tires -->
+  <append xpath="/blocks/block[@name='vehicleSchoolBus' or @name='vehicleSchoolBus01']">
+    <drop event="Destroy" name="vehicleTire" count="6" prob="1"/>
+  </append>
+</config>
