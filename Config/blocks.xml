@@ -2,27 +2,27 @@
 <config>
   <!-- Append tire drops to all vehicle blocks -->
   <append xpath="/blocks/block[starts-with(@name, 'cntMinivan')]">
-    <drop event="Destroy" name="vehicleWheels" count="4" prob="1"/>
+    <drop event="Destroy" name="vehicleWheels" count="1" prob="0.5"/>
   </append>
   <append xpath="/blocks/block[starts-with(@name, 'cntFrontCrumpledSedan')]">
-    <drop event="Destroy" name="vehicleWheels" count="4" prob="1"/>
+    <drop event="Destroy" name="vehicleWheels" count="1" prob="0.5"/>
   </append>
   <append xpath="/blocks/block[starts-with(@name, 'abandonedPickupTruck')]">
-    <drop event="Destroy" name="vehicleWheels" count="4" prob="1"/>
+    <drop event="Destroy" name="vehicleWheels" count="1" prob="0.5"/>
   </append>
   <append xpath="/blocks/block[starts-with(@name, 'abandonedSUV')]">
-    <drop event="Destroy" name="vehicleWheels" count="4" prob="1"/>
+    <drop event="Destroy" name="vehicleWheels" count="1" prob="0.5"/>
   </append>
   <append xpath="/blocks/block[starts-with(@name, 'cntSedan')]">
-    <drop event="Destroy" name="vehicleWheels" count="4" prob="1"/>
+    <drop event="Destroy" name="vehicleWheels" count="1" prob="0.5"/>
   </append>
   <!-- Append tire drops to all tire decorations -->
   <append xpath="/blocks/block[starts-with(@name, 'decoCarTire')]">
-    <drop event="Destroy" name="vehicleWheels" count="1" prob="1"/>
+    <drop event="Destroy" name="vehicleWheels" count="1" prob="0.5"/>
   </append>
   
   <!-- Specific case for school bus due to extra tires -->
-  <append xpath="/blocks/block[@name='vehicleSchoolBus' or @name='cntBus']">
-    <drop event="Destroy" name="vehicleWheels" count="6" prob="1"/>
+  <append xpath="/blocks/block[starts-with(@name, 'cntBus']">
+    <drop event="Destroy" name="vehicleWheels" count="2" prob="0.5"/>
   </append>
 </config>
